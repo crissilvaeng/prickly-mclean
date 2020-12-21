@@ -15,6 +15,8 @@ defmodule Cache do
 
     receive do
       {:ok, ^ref, page} -> page
+    after
+      1000 -> nil
     end
   end
 
@@ -24,6 +26,8 @@ defmodule Cache do
 
     receive do
       {:ok, ^ref, s} -> s
+    after
+      1000 -> nil
     end
   end
 
