@@ -14,10 +14,12 @@
         80,
         120
     ],
+    "enable-crash-reporter": false,
     "files.exclude": {
         "**/.git": true,
         "**/.elixir_ls": true
     },
+    "telemetry.enableTelemetry": false,
     "workbench.colorTheme": "Bluloco Light",
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.iconTheme": "material-icon-theme",
