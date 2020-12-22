@@ -49,3 +49,12 @@ end
 # Cache.put("twitter.com", "cat photos")
 # Cache.get("twitter.com")
 # Cache.size()
+
+# iex --sname node1 --cookie <hashzinho aqui>
+# iex --sname node2 --cookie <hashzinho aqui>
+# iex --sname node3 --cookie <hashzinho aqui>
+
+# Node.connect(:"nodeX@<hostname>")
+# Node.self, Node.list
+# whoami = fn() -> IO.puts(Node.self) end
+# Node.spawn(:"node3@<hostname>", whoami)
