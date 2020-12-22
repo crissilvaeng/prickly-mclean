@@ -7,6 +7,14 @@
             "label": "IEx",
             "type": "shell",
             "command": "iex",
+            "presentation": {
+                "reveal": "always",
+                "echo": true,
+                "focus": true,
+                "panel": "dedicated",
+                "showReuseMessage": true,
+                "clear": true
+            },
             "problemMatcher": []
         }
     ]
